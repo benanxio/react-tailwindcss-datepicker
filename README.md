@@ -1,16 +1,15 @@
-# React Tailwindcss Datepicker
+# React Datepicker
 
 <p align="center">
     <a href="https://react-tailwindcss-datepicker.vercel.app/" target="_blank">
       <img alt="React Tailwindcss Datepicker" width="100" style="border-radius: 100%;" src="https://raw.githubusercontent.com/onesine/react-tailwindcss-datepicker/master/assets/img/calendar_logo.svg?raw=true">
     </a><br><br>
-    A modern date range picker component for React using Tailwind 3 and dayjs. Alternative to Litepie Datepicker which uses Vuejs.
 </p>
 
 <div align="center">
     
-[![npm version](https://img.shields.io/npm/v/react-tailwindcss-datepicker?style=flat-square)](https://www.npmjs.com/package/react-tailwindcss-datepicker)
-[![npm downloads](https://img.shields.io/npm/dt/react-tailwindcss-datepicker?style=flat-square)](https://www.npmjs.com/package/react-tailwindcss-datepicker)
+[![npm version](https://img.shields.io/npm/v/react-tailwindcss-datepicker?style=flat-square)](https://www.npmjs.com/package/@benanxio/react-datepicker)
+[![npm downloads](https://img.shields.io/npm/dt/react-tailwindcss-datepicker?style=flat-square)](https://www.npmjs.com/package/@benanxio/react-datepicker)
     
 </div>
 
@@ -51,13 +50,13 @@ Go to [full documentation](https://react-tailwindcss-datepicker.vercel.app/)
 ### Install via npm
 
 ```
-npm install react-tailwindcss-datepicker
+npm install @benanxio/react-datepicker
 ```
 
 ### Install via yarn
 
 ```
-yarn add react-tailwindcss-datepicker
+yarn add @benanxio/react-datepicker
 ```
 
 Make sure you have installed the peer dependencies as well with the below versions.
@@ -79,7 +78,7 @@ module.exports = {
     // ...
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
-        "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js"
+        "./node_modules/@benanxio/react-datepicker/dist/index.esm.js"
     ]
     // ...
 };
@@ -89,7 +88,7 @@ Then use react-tailwindcss-select in your app:
 
 ```tsx
 import { useState } from "react";
-import Datepicker from "react-tailwindcss-datepicker";
+import Datepicker from "@benanxio/react-datepicker";
 
 const App = () => {
     const [value, setValue] = useState({
@@ -145,11 +144,6 @@ yarn install && yarn dev
 
 Open a browser and navigate to `http://localhost:8888`
 
-## Contributing
-
-See
-[CONTRIBUTING.md](https://github.com/onesine/react-tailwindcss-datepicker/blob/master/CONTRIBUTING.md)
-
 ## Official Documentation repo
 
 [https://github.com/onesine/react-tailwindcss-datepicker-doc](https://github.com/onesine/react-tailwindcss-datepicker-doc)
@@ -160,9 +154,3 @@ See
 -   [React](https://reactjs.org/)
 -   [Tailwind CSS](https://tailwindcss.com/)
 -   [dayjs](https://day.js.org/)
-
-I thank you in advance for your contribution to this project.
-
-## License
-
-[MIT](LICENSE) Licensed. Copyright (c) Lewhe Onesine 2022.
